@@ -119,7 +119,7 @@ export default function Home() {
 
                             <AnimatedWrapper animation="flip-left" className="w-[500px] h-[580px] flex-1 overflow-hidden rounded-lg max-[1000px]:w-full">
                                 <Image
-                                    src="/all-images/body-pix/skypierce.png"
+                                    src="/all-images/body-pix/skypierce.PNG"
                                     width={280}
                                     height={180}
                                     alt="Skypierce Picture"
