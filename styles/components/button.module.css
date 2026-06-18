@@ -1,0 +1,22 @@
+.button {
+    min-width: 140px;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-wrap: nowrap;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 800;
+    transition: 0.3s ease-in;
+}
+
+.buttonBorder {
+    border-radius: 50px 50px 50px 0px;
+}
+
+.button:hover {
+    background: var(--secondary-color);
+    color: var(--color-white);
+}

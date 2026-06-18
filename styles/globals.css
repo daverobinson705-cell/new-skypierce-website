@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@import 'animate.css';
+
+:root {
+    --body-bg-color: #f8f8f8;
+    --primary-color: #41B8DA;
+    --secondary-color: #00AFEF;
+    --text-color: #7c7c7c;
+    --white-color: #ffffff;
+    --close-color: #f00;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary-color) #f0f0f0;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: var(--secondary-color);
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.title {
+    font-family: var(--font-title);
+}
+
+body {
+    background: var(--body-bg-color);
+    color: var(--text-color);
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+    /* font-size: clamp(25px, 4vw, 40px); */
+    line-height: 1;
+    font-family: var(--font-title);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+}

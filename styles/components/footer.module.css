@@ -1,0 +1,55 @@
+.footerBg {
+    background: url('/all-images/bg-pix/footer-shape.webp') center/cover no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    width: 90%;
+    max-width: 1200px;
+}
+
+.socialsIcon {
+    padding: 13px;
+    background-color: var(--white-color);
+    border-radius: 100%;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.socialsIcon:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.linkContainer {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 15px;
+}
+
+.hr {
+    width: 40px;
+    border: none;
+    height: 2px;
+    background: var(--secondary-color);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
