@@ -221,6 +221,28 @@ export default function Home() {
                                     </ul>
                                 </AnimatedWrapper>
 
+                                <AnimatedWrapper>
+                                    <h3 className="mt-4 text-center underline text-2xl uppercase font-bold">Fly Me To You</h3>
+                                    <p>If you don't see your city on my schedule. I'm happy to fly to you.</p>
+
+                                    <ul className="mt-2">
+                                        <li>6 hrs minimum- $6,500</li>
+                                        <li>Overnight -$8,500</li>
+                                        <li>24 hrs -$12,000</li>
+                                        <li>48 hrs-$27000</li>
+                                    </ul>
+
+                                    <div className="mt-2">
+                                        <p>All travel and accommodation costs are covered by you.</p>
+                                        <p>Minimum requirements for:</p>
+                                    </div>
+
+                                    <ul className="mt-2">
+                                        <li>West Coast travel is overnight</li>
+                                        <li>Mid West and East Coast travel - 6hrs</li>
+                                    </ul>
+                                </AnimatedWrapper>
+
                                 <div className="mt-6 flex justify-center">
                                     <Link href="mailto:skypierceeofficial@gmail.com">
                                         <Button

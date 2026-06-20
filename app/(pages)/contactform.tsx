@@ -38,7 +38,7 @@ export default function ContactForm() {
             />
 
             <InputField
-                label="Phone Number"
+                label="Phone Number (I'm not going to caLl you)"
                 name="phone"
             />
 
@@ -53,8 +53,21 @@ export default function ContactForm() {
             />
 
             <InputField
-                label="Full Location Address"
-                name="location"
+                label="Appointment City"
+                name="Appoint City"
+            />
+
+            <SelectField
+                label="Duration"
+                name="duration"
+                options={[
+                    { value: "1H", label: "1H" },
+                    { value: "2H", label: "2H" },
+                    { value: "3H", label: "3H" },
+                    { value: "4H", label: "4H" },
+                    { value: "Overnight", label: "Overnight" },
+                    { value: "24H", label: "24H" },
+                ]}
             />
 
             <InputField
@@ -67,8 +80,8 @@ export default function ContactForm() {
                 label="Screening ID"
                 name="screening_id"
                 options={[
-                    { value: "Selfie with Driver's License", label: "Selfie with Driver's License" },
-                    { value: "Selfie with State ID", label: "Selfie with State ID" },
+                    { value: "Selfie + ID/DL", label: "Selfie + ID/DL" },
+                    { value: "LinkedIn profile", label: "LinkedIn profile" },
                 ]}
             />
 
@@ -79,6 +92,7 @@ export default function ContactForm() {
                     { value: "Bitcoin", label: "Bitcoin" },
                     { value: "Venmo", label: "Venmo" },
                     { value: "Bank Transfer", label: "Bank Transfer" },
+                    { value: "Gift Card", label: "Gift Card" },
                 ]}
             />
 
