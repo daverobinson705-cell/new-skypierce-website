@@ -222,14 +222,31 @@ export default function Home() {
                                 </AnimatedWrapper>
 
                                 <AnimatedWrapper>
+                                    <h3 className="mt-4 text-center underline text-2xl uppercase font-bold">Moments</h3>
+
+                                    <ul className="mt-2">
+                                        <li>1 hour - $1,200</li>
+                                        <li>1 hour vip - $2,100</li>
+                                        <li>2 hours - $1,800</li>
+                                        <li>2 hours vip - $2,700</li>
+                                        <li>3 hours - $2,600</li>
+                                        <li>3 hours vip - $3,500</li>
+                                        <li>4 hours - $3,400</li>
+                                        <li>4 hours vip - $4,300</li>
+                                        <li>6 hours - $5,000</li>
+                                        <li>6 hours vip - $5,900</li>
+                                    </ul>
+                                </AnimatedWrapper>
+
+                                <AnimatedWrapper>
                                     <h3 className="mt-4 text-center underline text-2xl uppercase font-bold">Fly Me To You</h3>
                                     <p>If you don't see your city on my schedule. I'm happy to fly to you.</p>
 
                                     <ul className="mt-2">
-                                        <li>6 hrs minimum- $6,500</li>
-                                        <li>Overnight -$8,500</li>
-                                        <li>24 hrs -$12,000</li>
-                                        <li>48 hrs-$27000</li>
+                                        <li>6 hrs minimum - $6,500</li>
+                                        <li>Overnight - $8,500</li>
+                                        <li>24 hrs - $12,000</li>
+                                        <li>48 hrs - $27000</li>
                                     </ul>
 
                                     <div className="mt-2">
@@ -274,7 +291,8 @@ export default function Home() {
                                     <p className="mt-4">
                                         A 50% deposit is required to secure all booking dates, regardless of location.
                                         Bookings are not confirmed until the deposit has been received.
-                                        Accepted payment methods include Venmo, Bitcoin (BTC), Apple Pay, and E-Transfer.
+                                        Accepted payment methods include Venmo, Bitcoin (BTC), Apple Pay, E-Transfer,
+                                        Bank Transfer, and Gift Card.
                                     </p>
 
                                     <p className="mt-4">

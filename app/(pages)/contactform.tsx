@@ -38,7 +38,7 @@ export default function ContactForm() {
             />
 
             <InputField
-                label="Phone Number (I'm not going to caLl you)"
+                label="Phone Number (I'm not going to call you)"
                 name="phone"
             />
 
@@ -89,10 +89,12 @@ export default function ContactForm() {
                 label="Preferred Payment Method"
                 name="payment_method"
                 options={[
-                    { value: "Bitcoin", label: "Bitcoin" },
+                    { value: "Bitcoin (BTC)", label: "Bitcoin (BTC)" },
                     { value: "Venmo", label: "Venmo" },
                     { value: "Bank Transfer", label: "Bank Transfer" },
                     { value: "Gift Card", label: "Gift Card" },
+                    { value: "Apple Pay", label: "Apple Pay" },
+                    { value: "E-Transfer", label: "E-Transfer" },
                 ]}
             />
 
