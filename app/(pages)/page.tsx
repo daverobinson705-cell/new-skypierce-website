@@ -292,7 +292,7 @@ export default function Home() {
                                         A 50% deposit is required to secure all booking dates, regardless of location.
                                         Bookings are not confirmed until the deposit has been received.
                                         Accepted payment methods include Venmo, Bitcoin (BTC), Apple Pay, E-Transfer,
-                                        Bank Transfer, and Gift Card.
+                                        Bank Transfer, and Chime.
                                     </p>
 
                                     <p className="mt-4">

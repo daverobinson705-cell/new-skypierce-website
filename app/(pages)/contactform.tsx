@@ -92,7 +92,7 @@ export default function ContactForm() {
                     { value: "Bitcoin (BTC)", label: "Bitcoin (BTC)" },
                     { value: "Venmo", label: "Venmo" },
                     { value: "Bank Transfer", label: "Bank Transfer" },
-                    { value: "Gift Card", label: "Gift Card" },
+                    { value: "Chime", label: "Chime" },
                     { value: "Apple Pay", label: "Apple Pay" },
                     { value: "E-Transfer", label: "E-Transfer" },
                 ]}
