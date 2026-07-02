@@ -32,8 +32,8 @@ const Header = () => {
                     <div className={`${styles.flex}`}>
                         <div className={`${styles.flex} ${styles.borderLeft} max-[750px]:!hidden`}>
                             <MdEmail className="text-[var(--white-color)]" />
-                            <Link href="mailto:skypierceeofficial@gmail.com" className="text-[var(--white-color)] hover:underline">
-                                skypierceoffical@gmail.com
+                            <Link href="mailto:skypierceevip@gmail.com" className="text-[var(--white-color)] hover:underline">
+                                skypiercevip@gmail.com
                             </Link>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const Header = () => {
                     <Navbar />
                     <div className={`${styles.flex} gap-3`}>
                         <div className="max-[480px]:hidden">
-                            <Link href="mailto:skypierceeofficial@gmail.com">
+                            <Link href="mailto:skypierceevip@gmail.com">
                                 <Button
                                     label="Message Me" icon={<BsFillPencilFill />}
                                     title="Message Me"

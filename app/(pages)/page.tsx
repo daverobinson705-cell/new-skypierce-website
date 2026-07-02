@@ -65,7 +65,7 @@ export default function Home() {
                                 collaborations across photography, videography, and creative direction.
                                 I produce high-quality adult-oriented content with a focus on consent, safety,
                                 and professional standards. For bookings, rates, or project proposals,
-                                email <Link href="mailto:skypierceeofficial@gmail.com" className="text-[var(--white-color)] hover:underline">skypierceoffical@gmail.com </Link>,
+                                email <Link href="mailto:skypierceevip@gmail.com" className="text-[var(--white-color)] hover:underline">skypiercevip@gmail.com </Link>,
                                 use the booking form on my site, or DM on my
                                 social media profiles. All collaborators must provide valid age verification and sign standard release and consent
                                 forms prior to any session.
@@ -105,7 +105,7 @@ export default function Home() {
 
                                 <AnimatedWrapper>
                                     <div className="mt-6">
-                                        <Link href="mailto:skypierceeofficial@gmail.com">
+                                        <Link href="mailto:skypierceevip@gmail.com">
                                             <Button
                                                 label="Inquiry"
                                                 icon={<BsFillPencilFill />}
@@ -167,7 +167,7 @@ export default function Home() {
                                 </div>
 
                                 <div className="mt-6">
-                                    <Link href="mailto:skypierceeofficial@gmail.com">
+                                    <Link href="mailto:skypierceevip@gmail.com">
                                         <Button
                                             label="Book a Session"
                                             icon={<BsFillPencilFill />}
@@ -261,7 +261,7 @@ export default function Home() {
                                 </AnimatedWrapper>
 
                                 <div className="mt-6 flex justify-center">
-                                    <Link href="mailto:skypierceeofficial@gmail.com">
+                                    <Link href="mailto:skypierceevip@gmail.com">
                                         <Button
                                             label="Message Me"
                                             icon={<BsFillPencilFill />}
@@ -329,7 +329,7 @@ export default function Home() {
 
                                 <AnimatedWrapper>
                                     <div className="mt-6">
-                                        <Link href="mailto:skypierceeofficial@gmail.com">
+                                        <Link href="mailto:skypierceevip@gmail.com">
                                             <Button
                                                 label="Inquiry"
                                                 icon={<BsFillPencilFill />}

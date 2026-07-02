@@ -7,7 +7,7 @@ const ButtonLink = () => {
     return (
         <>
             <div className="flex gap-5 flex-wrap">
-                <Link href="mailto:skypierceeofficial@gmail.com">
+                <Link href="mailto:skypierceevip@gmail.com">
                     <Button
                         label="Book a Session"
                         icon={<BsFillPencilFill />}
