@@ -65,7 +65,7 @@ export default function Home() {
                                 collaborations across photography, videography, and creative direction.
                                 I produce high-quality adult-oriented content with a focus on consent, safety,
                                 and professional standards. For bookings, rates, or project proposals,
-                                email <Link href="mailto:skypierceevip@gmail.com" className="text-[var(--white-color)] hover:underline">skypiercevip@gmail.com </Link>,
+                                email <Link href="mailto:skypierceevip@gmail.com" className="text-[var(--white-color)] hover:underline">skypierceevip@gmail.com </Link>,
                                 use the booking form on my site, or DM on my
                                 social media profiles. All collaborators must provide valid age verification and sign standard release and consent
                                 forms prior to any session.

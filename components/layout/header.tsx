@@ -33,7 +33,7 @@ const Header = () => {
                         <div className={`${styles.flex} ${styles.borderLeft} max-[750px]:!hidden`}>
                             <MdEmail className="text-[var(--white-color)]" />
                             <Link href="mailto:skypierceevip@gmail.com" className="text-[var(--white-color)] hover:underline">
-                                skypiercevip@gmail.com
+                                skypierceevip@gmail.com
                             </Link>
                         </div>
                     </div>
